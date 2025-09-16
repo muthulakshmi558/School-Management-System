@@ -46,9 +46,10 @@ TEMPLATES = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
+    'https://school-management-system-kappa-pearl.vercel.app',
 ]
 
+ALLOWED_HOSTS = ['school-management-system-eyo7.onrender.com', 'localhost', '127.0.0.1']
 ROOT_URLCONF = 'school_management.urls'
 
 STATIC_URL = '/static/'
